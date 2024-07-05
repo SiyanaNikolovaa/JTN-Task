@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Add Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>JTN Task</title>
+    <!--Add CSS-->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1 class="main-title inter-bold">Please add text file's path</h1>
+      <!--The input will take only files with .txt extension-->
+      <input type="file" name="inputfile" id="fileInput" accept=".txt" />
+      <p class="inter-bold" id="filePath"></p>
+      <p class="inter-normal" id="output"></p>
+      <button class="basic-button inter-bold" id="action-btn">Show text</button>
+      <div id="wordsContainer" class="words-container"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

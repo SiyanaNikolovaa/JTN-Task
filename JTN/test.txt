@@ -1,0 +1,21 @@
+1. hello!     world
+2. test@case
+3. example#2024
+4. Python$rocks!
+5. code&debug
+6. learn*regex
+7. random_text2021
+8. space   here
+9. mixed123words
+10. symbols*and&chars
+11. multiple    spaces
+12. split-words
+13. end.with.period.
+14. break@down
+15. find&replace
+16. hello!     world
+17. test@case
+18. example#2024
+19. Python$rocks!
+20. code&debug
+happy happy happy
