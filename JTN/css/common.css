@@ -50,7 +50,7 @@ body {
   width: 120px;
   overflow-y: auto;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border: none;
   color: var(--whitesmoke);
   border-radius: 25px;

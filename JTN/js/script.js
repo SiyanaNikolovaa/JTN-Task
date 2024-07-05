@@ -71,11 +71,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const showHideText = () => {
     if (textVisible) {
-      showHideBtn.textContent = "Show";
+      showHideBtn.textContent = "Show text";
       textVisible = false;
       textContainer.textContent = "";
     } else {
-      showHideBtn.textContent = "Hide";
+      showHideBtn.textContent = "Hide text";
       textVisible = true;
       textContainer.textContent = textFromFile;
     }
